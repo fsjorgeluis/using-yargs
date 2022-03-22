@@ -1,0 +1,19 @@
+{
+  "name": "base-yargs",
+  "version": "0.0.1",
+  "description": "Tabla de multiplicar a archivo de texto",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "author": "Jorge Fernandez",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.4.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
