@@ -4,19 +4,19 @@ const argv = require('yargs')
 			alias: 'base',
 			type: 'number',
 			demandOption: true,
-			describe: 'Multiply base number',
+			describe: 'Base number to multiply',
 		},
 		m: {
 			alias: 'multiplier',
 			type: 'number',
 			default: 10,
-			describe: 'Loopt to multiplier number',
+			describe: 'Loop to multiplier number',
 		},
 		l: {
 			alias: 'list',
 			type: 'boolean',
 			default: false,
-			describe: 'Show table for base number',
+			describe: 'Display table for base number',
 		},
 	})
 	.check((argv, options) => {

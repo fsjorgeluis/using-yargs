@@ -6,9 +6,9 @@ Console application using yargs, receive base and limit multiplier and create fi
 Opciones:
       --help        Muestra ayuda                                     [booleano]
       --version     Muestra número de versión                         [booleano]
-  -b, --base        Multiply base number                    [número] [requerido]
-  -m, --multiplier  Loopt to multiplier number            [número] [defecto: 10]
-  -l, --list        Show table for base number       [booleano] [defecto: false]
+  -b, --base        Base number to multiply                 [número] [requerido]
+  -m, --multiplier  Loop to multiplier number             [número] [defecto: 10]
+  -l, --list        Display table for base number    [booleano] [defecto: false]
 ```
 
 # Purposes
